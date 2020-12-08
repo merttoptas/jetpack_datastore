@@ -21,8 +21,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginRight="20dp"
-                app:cardElevation="2dp"
                 app:cardCornerRadius="8dp"
+                app:cardElevation="2dp"
                 app:cardUseCompatPadding="true"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -31,8 +31,8 @@
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
-                    android:background="#14b1ab"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:background="#14b1ab">
 
                     <TextView
                         android:id="@+id/tv_name"
@@ -109,8 +109,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:padding="10dp"
             android:backgroundTint="#14b1ab"
+            android:padding="10dp"
             android:text="Save user" />
 
     </LinearLayout>

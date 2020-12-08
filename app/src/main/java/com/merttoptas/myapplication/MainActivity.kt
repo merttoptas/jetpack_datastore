@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             GlobalScope.launch {
                 userManager.storeUser(age, name, isRemember)
             }
-        }
+        }   
     }
 
     private fun observeData() {
